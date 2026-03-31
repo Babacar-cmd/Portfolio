@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Projet 2/univ.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Babacar MBOW</h1>
+        <img src="/Moi/images/SG.png" height="260" width="200" alt="">
+        <p>Développeur Web & Passionné de Technologie</p>
+    </header>
+
+    <main>
+        <section id="accueil">
+            <h2>À propos de moi</h2>
+            <p>Bienvenue sur mon portfolio. Je me spécialise dans la création d'applications web et la résolution de problèmes techniques complexes.</p>
+        </section>
+
+        <section id="projets">
+            <h2>Mes Réalisations</h2>
+            <article>
+                <h3>SmartBin - Poubelle Intelligente Autonome</h3>
+                <p>Conception et réalisation d'un système embarqué permettant l'automatisation et la gestion intelligente des déchets ménagers. Ce projet répond à des problématiques d'hygiène (ouverture sans contact) et d'optimisation de la collecte (suivi du taux de remplissage).</p>
+                <p>Technologies : Langage C++, Pascal.</p>
+                <a href="/Projet 1/Poubelle.html">Lien vers le dépôt</a>
+            </article>
+
+            <article>
+                <h3>Elite Master School</h3>
+                <p>Développement d'une application web dynamique permettant la gestion complète d'un supermarché en ligne. Le projet intègre une interface client pour les achats et une interface d'administration pour la gestion des stocks et des commandes.</p>
+                <p>Technologies : HTML5, CSS3</p>
+                <a href="/Projet 2/univ.html">Voir la démo</a>
+            </article>
+
+            <article>
+                 <h3>Site web officiel : Mbow Yelli Familly</h3>
+                 <p>Conception et développement du site web officiel de la famille Mbow Yélli. L'objectif principal de ce projet était de créer un pont numérique entre les générations et les membres de la lignée dispersés à travers le monde.</p>
+                 <p>Technologies : HTML5, CSS3, Javascript</p>
+                 <a href="/Projet 3/Mbow yélli Familly/mbow_family/site.html">Voir le site</a>
+            </article>
+
+        </section>
+
+        <section id="competences">
+            <h2>Compétences Techniques</h2>
+            <ul>
+                <li>Développement Frontend (HTML, CSS, JS)</li>
+                <li>Développement Backend (Python, C++)</li>
+                <li>Gestion de bases de données</li>
+                <li>Intégration matérielle et API</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Me Contacter</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="user_name" required>
+                </div>
+                <div>
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="user_email" required>
+                </div>
+                <div>
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="user_message" rows="5" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Envoyer le message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Tous droits réservés</p>
+        <p>Retrouvez-moi sur <a href="#">LinkedIn</a> ou <a href="#">GitHub</a>.</p>
+    </footer>
+
+</body>
+</html>
