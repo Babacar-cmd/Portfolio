@@ -16,6 +16,10 @@
                 <li><a href="#projets">Projets</a></li>
                 <li><a href="#competences">Compétences</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li>
+                    <input type="text" id="chercher" placeholder="Rechercher..." onkeyup="filtrer()">
+                    <button onclick="effacer()">Réinitialiser</button>
+                </li>
             </ul>
             
 </nav>
@@ -30,6 +34,17 @@
             <p>Bienvenue sur mon portfolio. Je me spécialise dans la création d'applications web et la résolution de problèmes techniques complexes.</p>
         </section>
 
+<div id="liste">
+        <div class="projet" data-tags="web education école elite master school">
+            <h3>Elite Master School</h3>
+            <p>Plateforme web éducative...</p>
+        </div>
+        
+        <!-- ... tes autres projets ici ... -->
+    </div>
+
+
+        
         <section id="projets">
             <h2>Mes Réalisations</h2>
             <article>
