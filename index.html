@@ -17,17 +17,12 @@
                 <li><a href="#competences">Compétences</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
-                   <div class="search-container">
-        <!-- Le champ de recherche -->
-        <input type="text" id="searchBar" onkeyup="searchProject()" placeholder="Rechercher un projet...">
-
-        <!-- La liste des projets -->
-        <ul id="projectList">
-            <li class="project-item"><a href="lien-projet-1.html">sSmartBin - Poubelle Intelligente</a></li>
-            <li class="project-item"><a href="lien-projet-2.html">Elite Master School</a></li>
-            <li class="project-item"><a href="lien-projet-3.html">Site officiel : Mbow Yelli Family</a></li>
-        </ul>
-    </div> 
+<div class="search-wrapper">
+    <form action="/recherche" method="GET">
+        <input type="text" name="q" class="search-input" placeholder="Rechercher un projet...">
+        <button type="submit" class="search-button">🔍</button>
+    </form>
+</div>
                 </li>
             </ul>
             
