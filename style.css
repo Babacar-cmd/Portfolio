@@ -48,6 +48,41 @@ header img:hover{
     border-color: #38bdf8;
 }
 
+.contact-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+/* Style du bouton de contact */
+.btn-email {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-email:hover {
+    background-color: #0056b3;
+}
+
+
 
 header nav ul {
     list-style: none;
