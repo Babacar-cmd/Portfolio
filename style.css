@@ -18,7 +18,39 @@ body {
     font-family: 'Fira Code', 'Segoe UI', monospace; /* Police typée "code" si disponible */
     line-height: 1.6;
     color: var(--text-main);
-    background-color: var(--bg-dark);
+    background-color: .contact-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+/* Style du bouton de contact */
+.btn-email {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-email:hover {
+    background-color: #0056b3;
+}
     margin: 0;
 }
 
@@ -69,7 +101,7 @@ p {
 /* Style du bouton de contact */
 .btn-email {
     display: inline-block;
-    background-color: #007bff;
+    background-color:  var(--card-bg);
     color: white;
     padding: 12px 24px;
     text-decoration: none;
