@@ -77,6 +77,55 @@
         </form>
 
         </section>
+<br>
+
+        <!-- La barre de recherche -->
+<div class="search-section">
+    <h1>Exploration de Projets</h1>
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Rechercher un projet (ex: Application, Web, Design...)">
+        <button type="button">Rechercher</button>
+    </div>
+</div>
+
+<!-- La zone d'affichage des résultats -->
+<div class="projects-container" id="projectsGrid">
+    
+    <!-- Projet 1 -->
+    <article class="project-item" data-keywords="web site vitrine developpement html css">
+        <h3>Site Vitrine "Eco-Luxe"</h3>
+        <p>Création d'une interface web éco-conçue pour une marque de luxe.</p>
+        <div class="labels">
+            <span>Web</span>
+            <span>Design</span>
+        </div>
+    </article>
+
+    <!-- Projet 2 -->
+    <article class="project-item" data-keywords="mobile app ios android react native">
+        <h3>Application "Go-Sport"</h3>
+        <p>Application mobile de suivi de performance en temps réel.</p>
+        <div class="labels">
+            <span>Mobile</span>
+            <span>React Native</span>
+        </div>
+    </article>
+
+    <!-- Projet 3 -->
+    <article class="project-item" data-keywords="data intelligence artificielle python analyse">
+        <h3>Analyseur IA</h3>
+        <p>Outil d'analyse prédictive basé sur le comportement utilisateur.</p>
+        <div class="labels">
+            <span>Data</span>
+            <span>Python</span>
+        </div>
+    </article>
+
+    <!-- Message si aucun résultat (caché par défaut) -->
+    <p id="noResults" style="display:none;">Aucun projet ne correspond à votre recherche.</p>
+</div>
+
+        
         
     </main>
     <footer>
