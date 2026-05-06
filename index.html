@@ -17,7 +17,33 @@
                 <li><a href="#competences">Compétences</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+
+    <div class="nav-container">
+        <!-- Ton Logo -->
+        <a href="#" class="logo">MonPortfolio</a>
+
+        <!-- Barre de recherche rapide -->
+        <div class="search-wrapper">
+            <input type="text" id="navSearchInput" placeholder="🔍 Rechercher un projet (ex: Web, Python...)" autocomplete="off">
+            <div id="quickResults" class="search-suggestions"></div>
+        </div>
+
+        <!-- Liens de navigation -->
+        <ul class="nav-links">
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+<!-- Exemple de grille de projets (pour tester le filtrage) -->
+<section id="projets" class="project-grid">
+    <div class="project-card" data-keywords="web react frontend">Projet Web React</div>
+    <div class="project-card" data-keywords="python data science">Analyse de Données</div>
+    <div class="project-card" data-keywords="design ui ux mobile">App Mobile Design</div>
+</section>
+
+            
+</nav>
         <h1>Babacar MBOW</h1>
         <img src="SG.png" height="260" width="200" alt="">
         <p>Développeur Web & Passionné de Technologie</p>
@@ -77,54 +103,6 @@
         </form>
 
         </section>
-<br>
-
-        <!-- La barre de recherche -->
-<div class="search-section">
-    <h1>Exploration de Projets</h1>
-    <div class="search-box">
-        <input type="text" id="searchInput" placeholder="Rechercher un projet (ex: Application, Web, Design...)">
-        <button type="button">Rechercher</button>
-    </div>
-</div>
-
-<!-- La zone d'affichage des résultats -->
-<div class="projects-container" id="projectsGrid">
-    
-    <!-- Projet 1 -->
-    <article class="project-item" data-keywords="SmartBin - Poubelle Intelligente Autonome">
-        <h3>Site Vitrine "Eco-Luxe"</h3>
-        <p>Création d'une interface web éco-conçue pour une marque de luxe.</p>
-        <div class="labels">
-            <span>Web</span>
-            <span>Design</span>
-        </div>
-    </article>
-
-    <!-- Projet 2 -->
-    <article class="project-item" data-keywords="Elite Master School">
-        <h3>Application "Go-Sport"</h3>
-        <p>Application mobile de suivi de performance en temps réel.</p>
-        <div class="labels">
-            <span>Mobile</span>
-            <span>React Native</span>
-        </div>
-    </article>
-
-    <!-- Projet 3 -->
-    <article class="project-item" data-keywords="Site web officiel : Mbow Yelli Family">
-        <h3>Analyseur IA</h3>
-        <p>Outil d'analyse prédictive basé sur le comportement utilisateur.</p>
-        <div class="labels">
-            <span>Data</span>
-            <span>Python</span>
-        </div>
-    </article>
-
-    <!-- Message si aucun résultat (caché par défaut) -->
-    <p id="noResults" style="display:none;">Aucun projet ne correspond à votre recherche.</p>
-</div>
-
         
         
     </main>
