@@ -101,7 +101,7 @@ p {
 /* Style du bouton de contact */
 .btn-email {
     display: inline-block;
-    background-color:  var(--card-bg);
+    background-color:  #007bff;
     color: white;
     padding: 12px 24px;
     text-decoration: none;
